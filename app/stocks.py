@@ -1,11 +1,12 @@
 # ENV VARS
 
-import os
-from dotenv import load_dotenv
+# import os
+# from dotenv import load_dotenv
+# load_dotenv()
+# API_KEY = os.getenv("ALPHAVANTAGE_API_KEY", default="demo")
 
-load_dotenv()
-
-API_KEY = os.getenv("ALPHAVANTAGE_API_KEY", default="demo")
+# Import repeated fuction from another .py file
+from app.alpha import API_KEY
 
 # STOCK SELECTION
 
