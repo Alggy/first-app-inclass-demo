@@ -8,9 +8,9 @@ from statistics import mean
 from pprint import pprint
 
 # package (require installation) - this is why we need virtual environment 
-from dotenv import load_dotenv
-import requests
-from plotly.express import line
+# from dotenv import load_dotenv
+# import requests
+# from plotly.express import line
 
 # ENVIRONMENT VARIABLE RELATED CODE:
 
