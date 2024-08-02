@@ -2,7 +2,7 @@ print("This is an unemployment report")
 # IMPORTS
 
 # modules (don't need installation)
-import os
+# import os
 import json
 from statistics import mean
 from pprint import pprint
@@ -14,9 +14,11 @@ from pprint import pprint
 
 # ENVIRONMENT VARIABLE RELATED CODE:
 
-load_dotenv()
+# load_dotenv()
 
-API_KEY = os.getenv("ALPHAVANTAGE_API_KEY", default="demo")
+# API_KEY = os.getenv("ALPHAVANTAGE_API_KEY", default="demo")
+
+from app.alpha import API_KEY
 
 # UNEMPLOYMENT REPORT FUNCTIONALITY
 

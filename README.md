@@ -30,8 +30,16 @@ pip install -r requirements.txt
 Run the script:
 
 ```sh
-python app/unemployment.py
+# python app/unemployment.py
 
 # equivalent:
 python -m app.unemployment
+```
+
+## Testing
+
+Run tests:
+
+```sh
+pytest
 ```
