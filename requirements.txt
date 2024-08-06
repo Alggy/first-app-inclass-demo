@@ -8,3 +8,4 @@ plotly
 python-dotenv
 pandas
 pytest
+flask

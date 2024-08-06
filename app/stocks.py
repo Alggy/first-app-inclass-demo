@@ -14,6 +14,9 @@ def fetch_stocks_csv(symbol="MSFT"):
     request_url = f"https://www.alphavantage.co/query?function=TIME_SERIES_DAILY_ADJUSTED&symbol={symbol}&apikey={API_KEY}&outputsize=full&datatype=csv"
     return read_csv(request_url)
 
+# formating, all custom function should stay in global, not under the main
+def format_usd(my_price):
+    return f"${float(my_price):,.2f}"
 
 # the weird main conditional says
 # only run the indented code if you are running this file
